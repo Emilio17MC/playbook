@@ -1,4 +1,4 @@
-const User = require("../models/User");
+const User = require("./../models/User");
 
 class UserService {
   static create(id, username, name) {
@@ -13,8 +13,9 @@ class UserService {
     user.setUsername = newUsername;
   }
 
-  static getAllUsernames(users) {
-    return users.map((user) => user.username);
+  // Requerimiento 4: Agregar un nuevo método estático en `UserService` llamado `getAllUsernames`, que recibirá una lista de objetos de la clase `User`, y regresará la lista de todos los usernames de dichos objetos.
+  static getAllUsernames(usersArr) {
+    return usersArr.map((user) => user.username);
   }
 }
 

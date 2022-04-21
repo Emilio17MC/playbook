@@ -1,7 +1,7 @@
 {
   "name": "twitter",
   "version": "1.0.0",
-  "description": "",
+  "description": "Proyecto para LaunchX",
   "main": "index.js",
   "scripts": {
     "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest"
